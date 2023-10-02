@@ -12,12 +12,10 @@
 Los datos del proyecto vienen de [Sberbank Russian Housing Market](https://www.kaggle.com/competitions/sberbank-russian-housing-market) y se pueden hacer disponibles ejecutando desde cualquier notebook en Colab los siguientes comandos:
 
 <pre>
-url = 'https://drive.google.com/file/d/11kx9xw2EppTi1_SnOc_iN1D6K_rQ_F9g/view?usp=sharing'
-! wget "$url" -O kaggle.json
-! pip install kaggle
-! mkdir ~/.kaggle
-! cp kaggle.json ~/.kaggle/
-! chmod 600 ~/.kaggle/kaggle.json
-! kaggle competitions download sberbank-russian-housing-market
+! git clone https://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@github.com/jadercaro/Mercado-inmobiliario-ruso-de-Sberbank/
+os.chdir('/content/Mercado-inmobiliario-ruso-de-Sberbank/Dataset/')
 ! unzip sberbank-russian-housing-market.zip
+! unzip macro.csv.zip
+! unzip test.csv.zip
+! unzip train.csv.zip
 </pre>

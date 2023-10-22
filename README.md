@@ -19,3 +19,6 @@ os.chdir('/content/Mercado-inmobiliario-ruso-de-Sberbank/Dataset/')
 ! unzip test.csv.zip
 ! unzip train.csv.zip
 </pre>
+
+## Videos
+* [Video entrega 2](https://youtu.be/DlGLb6I0LTI)

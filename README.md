@@ -22,3 +22,4 @@ os.chdir('/content/Mercado-inmobiliario-ruso-de-Sberbank/Dataset/')
 
 ## Videos
 * [Video entrega 2](https://youtu.be/DlGLb6I0LTI)
+* [Video entrega final](https://youtu.be/t21AncnK6bs)
